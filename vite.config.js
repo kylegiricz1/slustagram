@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
-  base: '/REPO/', // <-- important for GH Pages
+  base: 'slustagram', // <-- important for GH Pages
 })

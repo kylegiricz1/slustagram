@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { seedPosts } from './data/posts';
 import Feed from './components/Feed';
 import Navbar from './components/Navbar';
-
+import { HashRouter } from 'react-router-dom';
 import Composer from './components/Composer';
 
 
